@@ -106,7 +106,7 @@ dist
 .vscode-test
 
 # config files
-config.js
+#config.js
 
 # IDE and editor files
 .vscode/
