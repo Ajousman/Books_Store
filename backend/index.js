@@ -5,7 +5,7 @@ import booksRoute from './routes/booksRoute.js';
 import cors from 'cors';
 
 const app = express();
-const port=process.abort.env.PORT || 5555
+const port=process.env.PORT || 5555
 
 // Middleware for parsing request body
 app.use(express.json());
