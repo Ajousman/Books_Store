@@ -7,6 +7,7 @@ import { BsInfoCircle } from 'react-icons/bs';
 import { MdOutlineAddBox, MdOutlineDelete } from 'react-icons/md';
 import BooksTable from '../components/home/BooksTable';
 import BooksCard from '../components/home/BooksCard';
+import AboutUs from '../components/home/AboutUs'; // Fixed: Capitalized component name
 
 const Home = () => {
   const [books, setBooks] = useState([]);
@@ -42,6 +43,12 @@ const Home = () => {
         >
           Card
         </button>
+        <button
+          className='bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-lg'
+          onClick={() => setShowType('aboutus')}
+        >
+          About Us
+        </button>
       </div>
       <div className='flex justify-between items-center'>
         <h1 className='text-3xl my-8'>Books List</h1>
@@ -53,9 +60,12 @@ const Home = () => {
         <Spinner />
       ) : showType === 'table' ? (
         <BooksTable books={books} />
-      ) : (
+      ) : showType === 'card' ? (
         <BooksCard books={books} />
+      ) : (
+        <AboutUs /> // Fixed: Proper conditional rendering and capitalized component
       )}
+      
     </div>
   );
 };
