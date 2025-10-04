@@ -1,26 +1,24 @@
 # Book Store MERN Stack Project
-
-## Lessons
-
-- [x] Lesson 01: Create Node.js project from scratch
-- [x] Lesson 02: Create our first HTTP route
-- [x] Lesson 03: Add MongoDB and Mongoose to Node.js
-- [x] Lesson 04: Create Book model with Mongoose
-- [x] Lesson 05: Save a new book with Mongoose
-- [x] Lesson 06: Get all books with Mongoose
-- [x] Lesson 07: Get one book by ID with Mongoose
-- [x] Lesson 08: Update a book with Mongoose
-- [x] Lesson 09: Delete a book with Mongoose
-- [x] Lesson 10: Refactor Node.js with Express router
-- [x] Lesson 11: CORS policy in Node.js and Express.js
-- [x] Lesson 12: Create React project, Vite, Tailwind CSS
-- [x] Lesson 13: SPA and add React Router DOM
-- [x] Lesson 14: Show books list in React
-- [x] Lesson 15: Show book details in React
-- [x] Lesson 16: Create book in React
-- [x] Lesson 17: Edit book in React
-- [x] Lesson 18: Delete book in React
-- [x] Lesson 19: Show books list as cards
-- [x] Lesson 20: Make book card a reusable component
-- [x] Lesson 21: Add a book modal
-- [x] Lesson 22: Improve user experience (UX) with beautiful alerts
+LIVE DEMO =  https://books-store-abdu.onrender.com
+- [1]  Create Node.js project from scratch
+- [2] : Create our first HTTP route
+- [3] : Add MongoDB and Mongoose to Node.js
+- [4] : Create Book model with Mongoose
+- [5] : Save a new book with Mongoose
+- [6] : Get all books with Mongoose
+- [7] : Get one book by ID with Mongoose
+- [8] : Update a book with Mongoose
+- [9] : Delete a book with Mongoose
+- [10] : Refactor Node.js with Express router
+- [11] : CORS policy in Node.js and Express.js
+- [12] : Create React project, Vite, Tailwind CSS
+- [13] : SPA and add React Router DOM
+- [14] : Show books list in React
+- [15] : Show book details in React
+- [16] : Create book in React
+- [17] : Edit book in React
+- [18] : Delete book in React
+- [19] : Show books list as cards
+- [20] : Make book card a reusable component
+- [21] : Add a book modal
+- [22] : Improve user experience (UX) with beautiful alerts
